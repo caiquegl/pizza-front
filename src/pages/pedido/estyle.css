@@ -1,0 +1,7 @@
+.bgPedidos{
+    background-color: #E6EAEB !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url('../../assets/bg.png');
+    background-size: cover;
+}

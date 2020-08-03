@@ -1,0 +1,21 @@
+.botaoGrande{
+    background-color: #219653;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    height: 60px;
+    font-size: 19px;
+    text-transform: uppercase;
+    width: 280px;
+    color: white;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.botaoGrande:hover{
+    background-color: #FDF2DF;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+    color: black;
+}

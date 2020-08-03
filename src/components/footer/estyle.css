@@ -1,0 +1,12 @@
+.footer{
+    background-color: rgba(242, 89, 36, .9);
+    text-align: center;
+}
+.footer .container{
+    height: 70px;
+    padding-top: 15px;
+}
+.footer .container p{
+    
+    font-weight: bold;
+}

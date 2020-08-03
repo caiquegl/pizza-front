@@ -1,0 +1,23 @@
+.pedidoCliente{
+    padding: 40px;
+    background-color: #FBFAF6;
+    border-radius: 5px;
+}
+.pedidoCliente h2{
+    text-align: center;
+    width: 100%;
+}
+.pedidoCliente section{
+    width: 180px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+.pedidoCliente li{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.pedidoCliente ul li p{
+    width: 180px;
+}

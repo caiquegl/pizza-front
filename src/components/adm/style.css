@@ -1,0 +1,95 @@
+.containerAdm{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #EDEDF2;
+    border-radius: 5px;
+}
+
+.containerAdm button{
+        background-color: #219653;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        height: 35px;
+        font-size: 15px;
+        color: white;    
+        transition: all 0.3s;
+        cursor: pointer;
+}
+.containerAdm button:hover{
+    background-color: #FDF2DF;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+    color: black;
+}
+.containerAdm input{
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+}
+.containerAdm .cardAdm{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cardAdm img{
+    cursor: pointer;
+}
+.inputEdit{
+    height: 30px;
+    width: 250px;
+}
+.alterarPedido{
+    display: block;
+    margin: 10px auto;
+    background-color: #219653;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    height: 35px;
+    font-size: 15px;
+    color: white;    
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.alterarPedido:hover{
+    background-color: #FDF2DF;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+    color: black;
+}
+.pes{
+    height: 30px !important;
+    margin: 5px 25%;
+}
+.download{
+    background-color: #219653;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    height: 60px;
+    font-size: 19px;
+    text-transform: uppercase;
+    width: 280px;
+    color: white;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.download:hover{
+    background-color: #FDF2DF;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+    color: black;
+}
+.semEstilo{
+    text-decoration: none;
+}

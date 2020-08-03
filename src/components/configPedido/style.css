@@ -1,0 +1,76 @@
+.config{
+    width: 40%;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #FBFAF6;  
+}
+.config label{
+    margin-right: 20px;
+    font-size: 17px;
+}
+.config .adicionais{
+    height: 140px;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+.config .adicionais img{
+    height: 90px;
+    width: 90px;
+}
+.adicionais label{
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+.seuPedido{
+    background-color: #FBFAF6;
+    width: 40%;
+    padding: 20px;
+    min-height: 710px;
+}
+.talao{
+    background-color: #F9F9F9;
+    padding: 20px 20px;
+}
+.talao img{
+    height: 90px;
+}
+.lixeira{
+    width: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+textarea{
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+    font-size: 15px;
+    max-height: 200px;
+}
+
+.botaoPedido{
+    background-color: #219653;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    height: 60px;
+    font-size: 19px;
+    text-transform: uppercase;
+    width: 280px;
+    color: white;
+    margin-left: 40%;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.botaoPedido:hover{
+    background-color: #FDF2DF;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+    color: black;
+}
+#ocult{
+    display: none;
+}

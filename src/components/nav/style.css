@@ -1,0 +1,80 @@
+.estruturaNav{
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 100px 2fr;
+    grid-template-areas: 
+        "logo navBar"
+    ;
+}
+.estruturaNav a{
+    width: 100px;
+    display: flex;
+    text-decoration: none;
+}
+.estruturaNav p{
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.p-none{
+    margin-left: 20px;
+}
+.p-none p{
+    font-weight: 400 !important;
+}
+#disable{
+    display: none;
+}
+
+.logoNav{
+    grid-area: logo;
+    height: 70px;
+    align-self: center;
+    justify-self: center;
+}
+.navBar{
+    display: flex;
+    justify-self: end;
+    align-items: center;
+}
+.containerLogin{
+    margin-left: 20px;
+}
+.containerLogin .login p{
+    text-decoration: underline;
+    padding: 0 20px;
+}
+.containerLogin .cadastro{
+    width: 100px;
+    background-color: #f05a23;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 33px;
+    letter-spacing: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: all 0.2s;
+}
+.containerLogin .cadastro:hover{
+    background-color: #219653;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+}
+.iconsNav{
+    width: 35px;
+    margin-right: 5px;
+}
+.unic{
+    margin-left: 20px;
+}
+#none{
+    display: none;
+}
+#logado{
+    display: block;
+}
+.unicNav{
+    cursor: pointer;
+}

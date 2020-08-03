@@ -1,0 +1,17 @@
+.containerCliente{
+    padding: 40px;
+    background-color: #FBFAF6;
+    border-radius: 5px;
+}
+.containerCliente h1{
+    text-align: center;
+}
+.containerCliente .pedidosAndamento{
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.containerCliente .pedidosAndamento p{
+    letter-spacing: 1px;
+    font-size: 15px;
+}

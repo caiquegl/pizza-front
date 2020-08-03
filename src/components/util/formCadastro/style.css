@@ -1,0 +1,49 @@
+.registrar{
+    padding: 40px;
+    border-radius: 5px;
+    background-color: #FBFAF6;
+}
+.registrar input{
+    width: 350px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.registrar label{
+    font-weight: bold;
+}
+.registrar h2{
+    text-align: center;
+}
+.pai-regis{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    width: 50%;
+}
+.rigth2{
+    width: 50%;
+}
+.registrar button{
+    margin-left: 35%;
+    margin-top: 20px;
+    height: 35px;
+    width: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #219653;
+    color: white;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.registrar button:hover{
+    background-color: wheat;
+    color: black;
+}

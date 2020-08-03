@@ -1,0 +1,19 @@
+.fullPromo{
+    background: rgb(249,182,124);
+    background: radial-gradient(circle, rgba(249,182,124,1) 0%, rgba(254,135,25,1) 67%);
+    height: 400px;
+}
+.centerPromo{
+    justify-content: center;
+    
+}
+.promo1{
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.promo2{
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 100px;
+}

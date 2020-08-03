@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #FBFAF6;
+  }
+  
+  a {
+    color: inherit;
+    
+  } 
+  button{
+    cursor: pointer;
+  }
+  .container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flex{
+    display: flex;
+    flex-wrap: wrap !important;
+  }
+  .shadow{
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.35);
+  }
+  .borderTop{
+    border-top: 1px solid black;
+  }
+  .borderBottom{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+  }
+  .spaceB{
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cursor{
+    cursor: pointer;
+    width: 20px;
+  }
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+  }
+  li{
+    width: 100%;
+    list-style: none;
+  }
+ .block{
+   display: block;
+ }
+ .pedidosAndamento ul{
+   width: 100% !important;
+   flex-wrap: wrap !important;
+   display: flex !important;
+ }
+.sairIcon{
+  width: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  
+}
+#Sim{
+  display: none !important;
+}
+#Nao{
+  display: block !important;
+}
+@media (max-width: 700px){
+  .container{
+    width: 100%;
+  }
+  .estruturaNav{
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 80px;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: 
+        "logo"
+        "navBar"
+    ;
+    gap: 0 !important;
+  }
+  .estruturaNav a{
+    margin-left: 40%;
+    padding-top: 40px;
+
+  }
+  .navBar a{
+    width: auto;
+  }
+  .navBar .flex a{
+    margin-left: 5px;
+    padding-top: 0;
+  }
+  .navBar .flex a img{
+    display: none;
+  }
+  .unicNav img{
+    display: none;
+  }
+  .containerLogin{
+    flex-wrap: nowrap !important;
+  }
+  .promo1{
+    display: none;
+  }
+  .promo2{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container{
+    padding: 20px;
+  }
+  .estruturaPizzas{
+    grid-template-columns: 100%;
+  }
+  .estruturaPizzas .card{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pai-regis{
+    display: block;
+  }
+  .bgLogin{
+    width: auto;
+  }
+  #logado p{
+    width: auto;
+  }
+
+  .pedidoCliente .shadow{
+    margin: 20px;
+    width: 127px;
+  }
+
+  .processo{
+    margin: 0 6%;
+  }
+  .bgPedidos .config{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .bgPedidos .seuPedido{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .botaoPedido{
+    margin-left: 11%;
+  }
+  .paiPagamento{
+    display: block !important;
+  }
+  .paiPagamento .left{
+    width: 100%;
+  }
+  .paiPagamento .rigth2{
+    width: 100% ;
+  }
+  .paiPagamento .rigth2 input{
+    width: 100%;
+  }
+  .containerAdm .flex{
+    display: block;
+  }
+  .containerAdm .flex button{
+    margin-left: 25%;
+    margin-bottom: 30px;
+  }
+  .containerAdm .flex .form-group label,
+  .containerAdm .flex .form-group input {
+    width: 300px;
+    margin-left: 8%;
+  }
+  .containerAdm .flex .form-group input {
+    margin-bottom: 10px;
+  }
+  .containerAdm .cardAdm{
+    margin: 20px auto;
+  }
+  .flex .form-group{
+    margin-left: 0px;
+  }
+  .atualizarP .download{
+    margin: 0;
+    margin-left: 10px !important;
+  }
+}
