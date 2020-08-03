@@ -30,7 +30,7 @@ export default function Login(){
             let validacao = response.data.msg;
 
             if (validacao === "Email ou senha errados!") {
-                alert("Email ou cpf ja cadastrado")
+                alert("Email ou senha incorreto")
             } else{
 
                 sessionStorage.setItem("idUsuario",response.data.idUsuario);

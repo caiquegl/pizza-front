@@ -2,12 +2,15 @@ import React from 'react';
 import {useHistory} from 'react-router-dom';
 
 
+
 import './estyle.css';
 
 export default function Cards(props){
     let cpfSession = sessionStorage.getItem("cpf");
 
     const history = useHistory();
+
+    let confirmar;
 
     function escPizza(nome){
         if(!cpfSession ){
@@ -39,7 +42,7 @@ export default function Cards(props){
                 <div>
                     R$ 0,00
                 </div>
-                <button className="addCard" onClick={e => escPizza("frango")} >
+                <button className="addCard" onClick={e => escPizza(props.nomePizza)} >
                     Add Card
                 </button>
             </div>
