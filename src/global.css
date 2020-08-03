@@ -102,6 +102,9 @@
     padding-top: 40px;
 
   }
+  .estruturaNav p{
+    padding-left: 10px;
+  }
   .navBar a{
     width: auto;
   }
@@ -137,6 +140,9 @@
   }
   .pai-regis{
     display: block;
+  }
+  .pai-regis input{
+    width: 90% !important;
   }
   .bgLogin{
     width: auto;
