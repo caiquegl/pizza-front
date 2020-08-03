@@ -227,7 +227,6 @@ export default function Formulario() {
                             <input
                                 type="texte"
                                 placeholder="Digite seu Complemento"
-                                required
                                 value={complemento}
                                 onChange={(e) => setComplemento(e.target.value)}
                             />
