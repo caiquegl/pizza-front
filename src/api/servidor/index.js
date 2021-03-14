@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiViaCep = axios.create({
-    baseURL: 'https://pizzaselecao.herokuapp.com/',
+    baseURL: 'https://server-pizza.herokuapp.com/',
 });
 
 export default apiViaCep;
